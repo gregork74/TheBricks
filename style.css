@@ -1,0 +1,18 @@
+#myCanvas{
+    border: 7px solid black;
+    
+    background: rgba(63, 63, 63, 0.795);
+}
+body{
+    text-align: center;
+    background-image: url("img/space.jpg");
+    background-size: cover;
+}
+.header{
+    height: fit-content;
+    font-size: 60px;
+    color: rgb(171, 131, 207);
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
