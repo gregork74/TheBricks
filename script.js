@@ -184,6 +184,13 @@ function movePaddle(event) {
 
 canvas.addEventListener('mousemove', movePaddle);
 
-
+function info(){
+    Swal.fire({
+      title:"Press start to begin the game",
+      icon: "question",
+      confirmButtonColor:"#7133FF",
+      confirmButtonText:"YES"
+    });
+  }
 
 setInterval(draw, 10);
